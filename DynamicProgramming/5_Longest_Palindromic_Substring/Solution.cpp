@@ -1,9 +1,10 @@
 /*
-Konzept:
-    1. Prüfe ob ein Substring symmetrisch ist
+Concept:
+    1. Prüfen, ob ein Substring Symmetrisch ist
         - Schleife über String
         - Prüfen, ob String am rechten Rand gleich ist zum Linken Rand
-        - Charakter jeweils um Eins weiter in die Mitte zählen
+        - Charakter jeweils um eins weiter in die Mitte zählen
+        - Wenn einmalig unterschiedlich ist dann return False. Wenn Ende erreicht dann return True.
     2. Über den String iterieren, Substrings generieren und prüfen ob String symmetrisch ist
         - Die Länge der Substrings wird immer kleiner (Beginn bei String-Länge dass so schnell wie möglich returned werden kann)
         
