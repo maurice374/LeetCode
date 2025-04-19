@@ -1,0 +1,7 @@
+# compilation outputs #
+*.exe
+*.pdb
+*.ilk
+
+# vs-code setup files #
+*.json
